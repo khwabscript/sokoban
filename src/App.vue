@@ -14,7 +14,7 @@ import Time from './components/Stats/Time.vue'
   <div style="margin: 10px auto;">
     <Sokoban />
     <!-- <div style="width: 300px;height: 300px;border: 30px solid; border-color: lightgray darkgray black;background: gray;margin: 30px auto;"></div> -->
-    <div style="margin: 0 auto">
+    <div style="margin: 10px auto 0">
       <Time />
       <Moves :moves="0" />
       <Pushes />  
