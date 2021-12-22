@@ -1,0 +1,990 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"in_array()"
+			],
+			[
+				"tr",
+				"transfer"
+			],
+			[
+				"web",
+				"webhooks"
+			],
+			[
+				"bot",
+				"botName"
+			],
+			[
+				"sc",
+				"schedules"
+			],
+			[
+				"send",
+				"sendMessage"
+			],
+			[
+				"preg",
+				"preg_match"
+			],
+			[
+				"jsn",
+				"json_decode"
+			],
+			[
+				"fun",
+				"fun\tfunction …"
+			],
+			[
+				"Не",
+				"неограниченное"
+			],
+			[
+				"arr",
+				"array_diff"
+			],
+			[
+				"sett",
+				"settings"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"not",
+				"notificationDispatches"
+			],
+			[
+				"fro",
+				"foreach\tforeach …"
+			],
+			[
+				"league",
+				"leagues"
+			],
+			[
+				"Tel",
+				"TelegramUser"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"lea",
+				"leagues"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"inner",
+				"innerSvg"
+			],
+			[
+				"exp",
+				"explode"
+			],
+			[
+				"tea",
+				"teamName"
+			],
+			[
+				"inn",
+				"innerSvg"
+			],
+			[
+				"te",
+				"text-center"
+			],
+			[
+				"ite",
+				"items-center"
+			],
+			[
+				"api",
+				"api_league_id"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"goals",
+				"goals_for"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"numT",
+				"numTeamPlayers"
+			],
+			[
+				"num",
+				"number_format"
+			],
+			[
+				"par",
+				"parse_amfr_fixtures"
+			],
+			[
+				"cl",
+				"class_"
+			],
+			[
+				"fin",
+				"find_all"
+			],
+			[
+				"le",
+				"leagueFixtures"
+			],
+			[
+				"user",
+				"userTeam"
+			],
+			[
+				"create",
+				"createMany"
+			],
+			[
+				"fix",
+				"fixture"
+			],
+			[
+				"is",
+				"is_null"
+			],
+			[
+				"away",
+				"away_team"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"table",
+				"tableSuffix"
+			],
+			[
+				"sam",
+				"samePlayers"
+			],
+			[
+				"sw",
+				"switch"
+			],
+			[
+				"sa",
+				"samePlayers"
+			],
+			[
+				"same",
+				"samePlayers"
+			],
+			[
+				"fore",
+				"foreach"
+			],
+			[
+				"chec",
+				"checkTeamNames"
+			],
+			[
+				"pla",
+				"players"
+			],
+			[
+				"Pla",
+				"Player"
+			],
+			[
+				"pl",
+				"players"
+			],
+			[
+				"t",
+				"teamPlayers"
+			],
+			[
+				"upda",
+				"updateFixtureScore"
+			],
+			[
+				"da",
+				"dashboard"
+			],
+			[
+				"home",
+				"home_team_goals"
+			],
+			[
+				"seed",
+				"seedFixtures"
+			],
+			[
+				"fi",
+				"fixtures"
+			],
+			[
+				"pr",
+				"print"
+			],
+			[
+				"pa",
+				"parse_lnfs_fixtures"
+			],
+			[
+				"awa",
+				"away_team_goals"
+			],
+			[
+				"parse_lnfs",
+				"parse_lnfs_fixture"
+			],
+			[
+				"epl",
+				"epl_chip_id"
+			],
+			[
+				"TR",
+				"TRIPLE_CAPTAIN"
+			],
+			[
+				"che",
+				"checkIP"
+			],
+			[
+				"S",
+				"SUCCEEDED_STATUS"
+			],
+			[
+				"j",
+				"json_decode"
+			],
+			[
+				"paye",
+				"payment_id"
+			],
+			[
+				"fir",
+				"firstWhere"
+			],
+			[
+				"Pa",
+				"Payment"
+			],
+			[
+				"we",
+				"webhook_token"
+			],
+			[
+				"P",
+				"PENDING_STATUS"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"req",
+				"req"
+			],
+			[
+				"us",
+				"user_id"
+			],
+			[
+				"de",
+				"deadline"
+			],
+			[
+				"five",
+				"five-hoops"
+			],
+			[
+				"flo",
+				"floor"
+			],
+			[
+				"ab",
+				"abs()"
+			],
+			[
+				"plaTe",
+				"playerTeamId"
+			],
+			[
+				"playerTe",
+				"playerTeamId"
+			],
+			[
+				"getPla",
+				"getPlayerId"
+			],
+			[
+				"pars",
+				"parse_fixture_lineups"
+			],
+			[
+				"pe",
+				"penalty_missed"
+			],
+			[
+				"ev",
+				"eventType"
+			],
+			[
+				"eve",
+				"eventType"
+			],
+			[
+				"player",
+				"player_name"
+			],
+			[
+				"mat",
+				"matchRow"
+			],
+			[
+				"getC",
+				"getCsvData"
+			],
+			[
+				"cha",
+				"championship"
+			],
+			[
+				"Su",
+				"SuperligaPlayer"
+			],
+			[
+				"parse",
+				"parse_url()"
+			],
+			[
+				"Re",
+				"Request"
+			],
+			[
+				"strrep",
+				"str_replace()"
+			],
+			[
+				"th",
+				"thin-stripes"
+			],
+			[
+				"json",
+				"json_decode()"
+			],
+			[
+				"js",
+				"json_encode()"
+			],
+			[
+				"n",
+				"nowrap"
+			],
+			[
+				"w",
+				"white-space"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"arrmer",
+				"array_merge()"
+			],
+			[
+				"play",
+				"playerData"
+			],
+			[
+				"getL",
+				"getLineupPosition"
+			],
+			[
+				"Pl",
+				"PlayerStatResource"
+			],
+			[
+				"gro",
+				"groupUserId"
+			],
+			[
+				"ho",
+				"home_user_goals"
+			],
+			[
+				"h2h",
+				"h2hGroups"
+			],
+			[
+				"gr",
+				"group"
+			],
+			[
+				"away_user",
+				"away_user_goals"
+			],
+			[
+				"h",
+				"h2hPairs"
+			],
+			[
+				"array",
+				"array_keys"
+			],
+			[
+				"ex",
+				"extract"
+			],
+			[
+				"la",
+				"langFile"
+			],
+			[
+				"f",
+				"firstOrCreate"
+			],
+			[
+				"cre",
+				"created_at"
+			],
+			[
+				"Kit",
+				"KitType"
+			],
+			[
+				"Ap",
+				"ApiTeam"
+			],
+			[
+				"team",
+				"team_id"
+			],
+			[
+				"B",
+				"BelongsTo"
+			],
+			[
+				"bel",
+				"belongsTo"
+			],
+			[
+				"ret",
+				"ret"
+			],
+			[
+				"jus",
+				"justify-between"
+			],
+			[
+				"tex",
+				"text-center"
+			],
+			[
+				"text",
+				"text-white"
+			],
+			[
+				"chan",
+				"changeColor"
+			],
+			[
+				"fu",
+				"fun"
+			],
+			[
+				"onc",
+				"onchange"
+			],
+			[
+				"co",
+				"color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/components/HelloWorld.vue",
+			"settings":
+			{
+				"buffer_size": 767,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Remove Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Install Package Control"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/MAMP/htdocs/fantasy/app/Models/League/League.php",
+		"/C/MAMP/htdocs/fantasy/app/Http/Controllers/Team/EplTeamController.php",
+		"/C/Users/Alex/Desktop/Программирование/Обучение/Community.txt",
+		"/C/MAMP/htdocs/fantasy/resources/views/local/test.php",
+		"/C/MAMP/htdocs/fantasy/app/Console/Kernel.php",
+		"/C/Users/Alex/Documents/Программирование/GitHub/sokoban/src/components/HelloWorld.vue",
+		"/C/Users/Alex/Desktop/championship_players.sql",
+		"/C/MAMP/htdocs/fantasy/app/Http/Controllers/PlayerStatController.php",
+		"/C/MAMP/htdocs/fantasy/app/Models/TelegramBot/DeadlineBot.php",
+		"/C/MAMP/htdocs/fantasy/app/Listeners/FixtureDeadlineSubscriber.php",
+		"/C/MAMP/htdocs/fantasy/routes/web.php",
+		"/C/Users/Alex/Documents/Программирование/парсинг/futsal/get-amfr-player-events.py",
+		"/C/MAMP/htdocs/fantasy/resources/views/play/rules.blade.php",
+		"/C/MAMP/htdocs/fantasy/app/Http/Controllers/Team/ApiTeamController.php",
+		"/C/MAMP/htdocs/fantasy/app/Http/Controllers/Team/Chips.php",
+		"/C/MAMP/htdocs/fantasy/resources/views/play/dashboard.blade.php",
+		"/C/MAMP/htdocs/fantasy/resources/views/components/sup.blade.php",
+		"/C/MAMP/htdocs/fantasy/resources/views/play/rules/epl.blade.php",
+		"/C/MAMP/htdocs/fantasy/resources/views/play/elements/error-box.blade.php",
+		"/C/MAMP/htdocs/fantasy/database/seeders/ApiFixtureSeeder.php",
+		"/C/MAMP/htdocs/fantasy/resources/lang/ru/play/rules.php",
+		"/C/MAMP/htdocs/fantasy/resources/lang/en/play/rules.php",
+		"/C/MAMP/htdocs/fantasy/resources/lang/en/play/views.php",
+		"/C/MAMP/htdocs/fantasy/resources/lang/ru/play/views.php",
+		"/C/MAMP/htdocs/fantasy/.env.example",
+		"/C/MAMP/htdocs/fantasy/.gitattributes",
+		"/C/MAMP/htdocs/fantasy/.styleci.yml",
+		"/C/Users/Alex/Documents/Программирование/парсинг/futsal/write_amfr_fixture_data.py",
+		"/C/Users/Alex/Documents/Программирование/парсинг/futsal/get-lnfs-player-evetns.py",
+		"/C/MAMP/htdocs/fantasy/composer.lock",
+		"/C/MAMP/htdocs/fantasy/.env.testing",
+		"/C/MAMP/htdocs/fantasy/.env",
+		"/C/MAMP/htdocs/fantasy/database/seeders/FootballApiSeeder.php",
+		"/C/MAMP/htdocs/fantasy/app/Http/Controllers/DreamTeamController.php",
+		"/C/MAMP/htdocs/fantasy/app/Http/Controllers/Team/Traits/HasPoints.php",
+		"/C/MAMP/htdocs/fantasy/app/Http/Controllers/Team/Traits/HasTransformers.php",
+		"/C/MAMP/htdocs/fantasy/app/Http/Controllers/Team/TeamController.php",
+		"/C/MAMP/htdocs/fantasy/resources/views/play/index.blade.php",
+		"/C/Users/Alex/Desktop/Работа/skill-uses.txt",
+		"/C/Users/Alex/Desktop/Работа/tips.txt",
+		"/C/Users/Alex/Desktop/futsal.sql",
+		"/C/MAMP/htdocs/fantasy/app/Http/Controllers/TelegramBotController.php",
+		"/C/MAMP/htdocs/fantasy/app/Console/Commands/DiscoverFixtures.php",
+		"/C/MAMP/htdocs/fantasy/app/Http/Controllers/Admin/TransferController.php",
+		"/C/MAMP/htdocs/fantasy/database/seeders/futsal/SuperligaSeeder.php",
+		"/C/MAMP/htdocs/fantasy/app/Http/Controllers/Team/FutsalTeamController.php",
+		"/C/MAMP/htdocs/fantasy/.gitignore",
+		"/C/Users/Alex/Desktop/liars.txt",
+		"/C/MAMP/htdocs/laravel-docs-example-app/database/factories/FlightFactory.php",
+		"/C/MAMP/htdocs/laravel-docs-example-app/database/migrations/2021_11_30_193528_create_flights_table.php",
+		"/C/MAMP/htdocs/laravel-docs-example-app/database/migrations/2021_11_30_193500_create_comments_table.php",
+		"/C/MAMP/htdocs/laravel-docs-example-app/database/migrations/2021_11_30_193642_create_posts_table.php",
+		"/C/MAMP/htdocs/laravel-docs-example-app/database/factories/PostFactory.php",
+		"/C/MAMP/htdocs/laravel-docs-example-app/database/factories/CommentFactory.php",
+		"/C/MAMP/htdocs/laravel-docs-example-app/database/factories/AirlineFactory.php",
+		"/C/MAMP/htdocs/laravel-docs-example-app/resources/views/kirschbaum-development/eloquent-power-joins.php",
+		"/C/MAMP/htdocs/laravel-docs-example-app/database/seeders/UserSeeder.php",
+		"/C/MAMP/htdocs/laravel-docs-example-app/database/seeders/PostSeeder.php",
+		"/C/MAMP/htdocs/laravel-docs-example-app/database/seeders/CommentSeeder.php",
+		"/C/MAMP/htdocs/laravel-docs-example-app/config/airlines.php",
+		"/C/MAMP/htdocs/laravel-docs-example-app/app/Models/Airline.php",
+		"/C/MAMP/htdocs/laravel-docs-example-app/app/Models/Comment.php",
+		"/C/MAMP/htdocs/laravel-docs-example-app/app/Models/Post.php",
+		"/C/MAMP/htdocs/laravel-docs-example-app/app/Models/Flight.php",
+		"/C/MAMP/htdocs/fantasy/app/Models/TelegramBot/TelegramBot.php",
+		"/C/Users/Alex/Documents/Программирование/парсинг/futsal/lnfs/fixtures/121.json",
+		"/C/Users/Alex/Documents/Программирование/парсинг/futsal/get-lnfs-fixtures.py",
+		"/C/MAMP/htdocs/fantasy/app/Http/Middleware/VerifyCsrfToken.php",
+		"/C/MAMP/htdocs/fantasy/database/migrations/2021_11_07_131645_create_telegram_bots_table.php",
+		"/C/MAMP/htdocs/fantasy/app/Notifications/DeadlineBot/DailyDeadlinesNotification.php",
+		"/C/MAMP/htdocs/fantasy/resources/lang/ru/notifications/deadline-bot.php",
+		"/C/MAMP/htdocs/fantasy/resources/lang/en/notifications/deadline-bot.php",
+		"/C/MAMP/htdocs/fantasy/app/Notifications/DeadlineBot/SettingsNotification.php",
+		"/C/MAMP/htdocs/fantasy/app/Notifications/DeadlineBot/HourlyDeadlinesNotification.php",
+		"/C/MAMP/htdocs/fantasy/app/Models/TelegramBot/Update.php",
+		"/C/MAMP/htdocs/fantasy/storage/app/json/Update.json",
+		"/C/MAMP/htdocs/fantasy/app/Notifications/DeadlineBot/GreetingNotification.php",
+		"/C/MAMP/htdocs/fantasy/app/Notifications/DeadlineBot/TournamentsNotification.php",
+		"/C/MAMP/htdocs/fantasy/app/Models/TelegramUser.php",
+		"/C/Users/Alex/Desktop/Работа/resume-en.txt",
+		"/C/Users/Alex/Desktop/Работа/curriculum-vitae.txt",
+		"/C/Users/Alex/Desktop/Работа/resume.txt",
+		"/C/MAMP/htdocs/fantasy/app/Notifications/DeadlineBot/UserNotFoundNotification.php",
+		"/C/MAMP/htdocs/fantasy/app/Notifications/DeadlineBot/LeaguesSetNotification.php",
+		"/C/MAMP/htdocs/fantasy/storage/app/json/play/superliga/fixtures/869192/events.json",
+		"/C/MAMP/htdocs/fantasy/database/migrations/2021_11_03_174702_add_column_league_id_to_superliga_fixtures_table.php",
+		"/C/MAMP/htdocs/fantasy/app/Http/Controllers/Team/Traits/HasChips.php",
+		"/C/MAMP/htdocs/fantasy/config/constants.php",
+		"/C/MAMP/htdocs/fantasy/database/migrations/2021_11_17_120957_rename_tournament_tables.php",
+		"/C/MAMP/htdocs/fantasy/database/migrations/2021_10_09_095313_create_tournament_tables.php",
+		"/C/Users/Alex/Downloads/epl_players.sql",
+		"/C/Users/Alex/Downloads/epl_x_players (2).sql",
+		"/C/MAMP/htdocs/fantasy/app/Models/TelegramBot/FoontasyBot.php",
+		"/C/MAMP/htdocs/fantasy/app/Notifications/TelegramNotification.php",
+		"/C/MAMP/htdocs/fantasy/database/migrations/2021_11_07_132028_create_telegram_bot_telegram_user_table.php",
+		"/C/MAMP/htdocs/fantasy/app/Notifications/Draft/TelegramDraftNotification.php",
+		"/C/MAMP/htdocs/fantasy/database/migrations/2021_11_14_162638_add_timestamps_in_telegram_users_table.php",
+		"/C/MAMP/htdocs/fantasy/app/Models/TelegramBot/TelegramDraftBot.php",
+		"/C/MAMP/htdocs/fantasy/database/seeders/PlayerEventSeeder.php",
+		"/C/MAMP/htdocs/fantasy/app/Notifications/DeadlineBot/DeadlineBotNotification.php",
+		"/C/MAMP/htdocs/fantasy/app/Notifications/DeadlineBot/HelpNotification.php",
+		"/C/MAMP/htdocs/fantasy/database/migrations/2021_11_13_121841_rename_telegram_id_to_chat_id_in_telegram_users_table.php",
+		"/C/MAMP/htdocs/fantasy/composer.json",
+		"/C/MAMP/htdocs/fantasy/app/Notifications/Draft/PlayerChoosen.php",
+		"/C/MAMP/htdocs/fantasy/app/Notifications/Draft/PlayerSold.php",
+		"/C/MAMP/htdocs/fantasy/app/Listeners/DraftEventSubscriber.php",
+		"/C/MAMP/htdocs/fantasy/app/Http/Controllers/DraftController.php",
+		"/C/MAMP/htdocs/fantasy/app/Models/Pivots/TelegramBotTelegramUserPivot.php",
+		"/C/MAMP/htdocs/fantasy/app/Models/League/LnfsLeague.php",
+		"/C/MAMP/htdocs/fantasy/app/Events/FixtureDeadlineIsComing.php",
+		"/C/Users/Alex/Documents/Программирование/парсинг/futsal/parse_amfr_fixtures.py",
+		"/C/Users/Alex/Documents/Программирование/парсинг/futsal/parse_amfr_player_events.py",
+		"/C/MAMP/htdocs/fantasy/app/Models/League/SuperligaLeague.php",
+		"/C/MAMP/htdocs/fantasy/app/Providers/EventServiceProvider.php",
+		"/C/MAMP/htdocs/fantasy/app/Http/Controllers/Team/Traits/HasH2H.php",
+		"/C/MAMP/htdocs/fantasy/database/seeders/H2HSeeder.php",
+		"/C/MAMP/htdocs/fantasy/resources/views/play/elements/header.blade.php",
+		"/C/MAMP/htdocs/fantasy/resources/views/play/elements/player-list.blade.php",
+		"/C/MAMP/htdocs/fantasy/app/Http/Controllers/Team/ConferenceTeamController.php",
+		"/C/MAMP/htdocs/fantasy/resources/views/components/svg/five-stripes.blade.php",
+		"/C/MAMP/htdocs/fantasy/resources/views/components/lineup/kit.blade.php",
+		"/C/MAMP/htdocs/fantasy/storage/app/public/images/teams/Championship/test.svg",
+		"/C/MAMP/htdocs/fantasy/resources/views/local/action/make-kit-svg.blade.php",
+		"/C/MAMP/htdocs/fantasy/resources/views/components/td.blade.php",
+		"/C/MAMP/htdocs/fantasy/storage/app/.gitignore",
+		"/C/MAMP/htdocs/fantasy/storage/app/public/images/teams/Epl/Brentford.svg",
+		"/C/MAMP/htdocs/fantasy/storage/app/public/images/teams/Rpl/Arsenal Tula.svg",
+		"/C/MAMP/htdocs/fantasy/app/Http/Controllers/Team/Futsal/LnfsFutsalTeamController.php"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			"C:\\MAMP\\htdocs\\fantasy\\app",
+			"C:\\MAMP\\htdocs\\fantasy",
+			"C:\\MAMP\\htdocs\\fantasy\\app",
+			"C:\\MAMP\\htdocs\\fantasy",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"championship",
+			"linh",
+			"webhookUrl",
+			"setUserScheduleSetting",
+			"getUserScheduleSettings",
+			"payment",
+			"renameTableIndexex",
+			"\t",
+			"SupportCollection",
+			"Notification",
+			"Carbon",
+			"Http",
+			"Imagick",
+			"Storage",
+			"Http",
+			"Config",
+			"TransferStatController",
+			"GetSportsTeams",
+			"HtmlParser",
+			"GetSportsTeams",
+			"TransferStatController",
+			"telegram_id",
+			"hours",
+			"withPivot",
+			"App\\TelegramUser",
+			"TelegramDraftNotification",
+			"App\\TelegramUser",
+			"');\n",
+			"'superliga'",
+			"'lnfs'",
+			"w-5",
+			"UEFA Europa Conference League",
+			"diff",
+			"AVTOKARZ LTD,RU",
+			"AVTOKARZ LTD,RU ",
+			"GOROD ORBITAXXI-AVTOBUS,GOROD RU",
+			"Reg.",
+			"SAMARA,YM*reg,SAMARA,",
+			"samara",
+			" согласно реестру зачислений № \\d{3} от .{10}. НДС не предусмотрен.",
+			" согласно реестру зачислений № \\d{3}. от .{10}. НДС не предусмотрен.",
+			" согласно реестру зачислений № .*",
+			" согласно реестру зачислений № *",
+			"/ согласно реестру зачислений № */",
+			" согласно реестру зачислений № *",
+			"ATM 994, ",
+			"TRM 40733, ",
+			"MOSCOW,",
+			"G,SBP, G, RU,SBP",
+			"MOSKVA,",
+			"MOSKVA ",
+			"RUS,",
+			"\\\\",
+			"уплата",
+			"884221",
+			"884227",
+			"font-size",
+			"sumPoints",
+			"dump",
+			"translate",
+			"numTeamPlayers",
+			"TRANSFER_CHIPS",
+			"FREE_HITS",
+			"FREE_HIT",
+			"::FREE_HIT",
+			"FREE_HIT",
+			"93",
+			"lnfs_player_user",
+			"aio",
+			"caio",
+			"erag",
+			"gerag",
+			"93",
+			"superliga_player_user",
+			"shuffle",
+			"ip_adresses",
+			"'conference",
+			"matchEvents",
+			"Новая Генерация",
+			"НорНикель",
+			"\n        ",
+			"redirectUri",
+			"HH",
+			"GG",
+			"flag-GG",
+			"APP_URL_EN",
+			"GG",
+			"EN",
+			"After your first deadline",
+			"The total value",
+			"You can select up to 3 players from a single team",
+			"You can select up to n players from a single team",
+			"You can select up to 3 players from a single team",
+			"getPlayersList",
+			"'futsal",
+			"no",
+			"mt-2"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"epl",
+			"setUserNotificationSettings",
+			"getUserNotificationSettings",
+			"dropTableIndexex",
+			"    ",
+			"chat_id",
+			"SuperligaLeague::NAME",
+			"LnfsLeague::NAME",
+			"609",
+			"Reg.",
+			"",
+			"SBP",
+			"",
+			",",
+			"::FREE_HIT_TRANSFER",
+			"$this->league . '",
+			"fixtureEvents",
+			"Новая генерация",
+			"Норильский Никель",
+			"redirectUrl",
+			"EN",
+			"HH",
+			"APP_URL_COM",
+			"EN",
+			"You can select up to n players from a single team",
+			"$this->league . '"
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/components/HelloWorld.vue",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 592.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 269.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
