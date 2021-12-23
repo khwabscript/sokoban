@@ -4,6 +4,9 @@
 
 <script>
 export default {
+  props: {
+    coors: Object
+  },
   computed: {
     style() {
       return {
@@ -11,9 +14,6 @@ export default {
         'grid-row': this.coors.y
       }
     }
-  },
-  props: {
-    coors: Object
   }
 }
 </script>

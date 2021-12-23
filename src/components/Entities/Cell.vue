@@ -7,6 +7,11 @@
 
 <script>
 export default {
+  props: {
+    coors: Object,
+    isGoal: Boolean,
+    hasPlayer: Boolean
+  },
   computed: {
     style() {
       return {
@@ -14,11 +19,6 @@ export default {
         'grid-row': this.coors.y
       }
     }
-  },
-  props: {
-    coors: Object,
-    isGoal: Boolean,
-    hasPlayer: Boolean
   }
 }
 </script>
@@ -34,7 +34,7 @@ export default {
     border-bottom-width: 0.125rem;
   }
   .goal {
-    font-size: 2rem;
+    font-size: 1.75rem;
     font-weight: bold;
     -webkit-text-stroke: 1px brown;
     color: gold;
