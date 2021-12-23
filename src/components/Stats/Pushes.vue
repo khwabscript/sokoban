@@ -4,10 +4,8 @@
 
 <script>
 export default {
-  data() {
-    return {
-      pushes: 0
-    }
+  props: {
+    pushes: Number
   }
 }
 </script>

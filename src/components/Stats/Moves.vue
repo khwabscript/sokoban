@@ -4,11 +4,6 @@
 
 <script>
 export default {
-  // data() {
-  //   return {
-  //     moves: 0
-  //   }
-  // }
   props: {
     moves: Number
   }
