@@ -1,5 +1,5 @@
 <template>
-  <div class="cell">
+  <div class="cell" :style="style">
     <div class="goal" v-if="isGoal">✖</div>
     <div class="player" v-if="hasPlayer">🎅</div>
   </div>
@@ -7,7 +7,16 @@
 
 <script>
 export default {
+  computed: {
+    style() {
+      return {
+        'grid-column': this.coors.x,
+        'grid-row': this.coors.y
+      }
+    }
+  },
   props: {
+    coors: Object,
     isGoal: Boolean,
     hasPlayer: Boolean
   }

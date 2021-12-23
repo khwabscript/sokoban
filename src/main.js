@@ -1,4 +1,4 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import Sokoban from './components/Sokoban.vue'
 
-const app = createApp(App).mount('#app')
+const sokoban = createApp(Sokoban).mount('#sokoban')

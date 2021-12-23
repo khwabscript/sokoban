@@ -1,9 +1,21 @@
 <template>
-  <div class="border"></div>
+  <div class="border" :style="style"></div>
 </template>
 
 <script>
-export default {}
+export default {
+  computed: {
+    style() {
+      return {
+        'grid-column': this.coors.x,
+        'grid-row': this.coors.y
+      }
+    }
+  },
+  props: {
+    coors: Object
+  }
+}
 </script>
 
 <style type="text/css">

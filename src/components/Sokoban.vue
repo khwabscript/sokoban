@@ -2,10 +2,9 @@
   <main class="container">
     <h1>Sokoban</h1>
     <h2>{{ data.name }} - Level {{ data.level }}</h2>
-    <div class="field" v-bind:style="styleObject">
-      <Border v-for="border in data.entities.borders" v-bind:style="cellStyle(border.x, border.y)"/>
-      <Cell v-for="cell in data.entities.cells" :is-goal="cell.is_goal ?? false" :has-player="cell.has_player ?? false" 
-        v-bind:style="cellStyle(cell.x, cell.y)"/>
+    <div class="field" :style="style">
+      <Border v-for="border in data.entities.borders" :coors="{x: border.x, y: border.y}" />
+      <Cell v-for="cell in data.entities.cells" :coors="{x: cell.x, y: cell.y}" :is-goal="cell.is_goal" :has-player="cell.has_player" />
       <Box v-for="box in data.entities.boxes" :coors="{x: box.x, y: box.y}"/>
     </div>
     <ControlPanel @move="newMove" />
@@ -37,24 +36,22 @@ export default {
     Pushes,
     Time
   },
+  computed: {
+    style() {
+      return {
+        'grid-template-columns': 'repeat(' + this.data.width + ', 1fr)',
+        'grid-template-rows': 'repeat(' + this.data.height + ', 1fr)'
+      }
+    }
+  },
   data() {
     return {
       data: data,
       moves: 0,
-      pushes: 0,
-      styleObject : {
-        'grid-template-columns': 'repeat(' + data.width + ', 1fr)',
-        'grid-template-rows': 'repeat(' + data.height + ', 1fr)'
-      }
+      pushes: 0
     }
   },
   methods: {
-    cellStyle(x, y) {
-      return {
-        'grid-column': x,
-        'grid-row': y
-      }
-    },
     newMove(direction) {
       this.moves++
     }
@@ -63,6 +60,14 @@ export default {
 </script>
 
 <style type="text/css">
+  #sokoban {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    /*margin-top: 60px;*/
+  }
   h2 {
     text-transform: capitalize;
   }
