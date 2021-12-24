@@ -4,7 +4,6 @@
     <span>Moves: {{ moves }}</span>
     <span>Pushes: {{ pushes }}</span>
   </div>
-  
 </template>
 
 <script>
@@ -25,11 +24,12 @@ export default {
   // }
 }
 </script>
+
 <style type="text/css">
-  span {
-    margin: 5px;
-  }
   .stats {
     margin: 10px auto 0;
+  }
+  .stats > span {
+    margin: 5px;
   }
 </style>

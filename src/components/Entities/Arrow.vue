@@ -11,7 +11,7 @@
 <script>
 export default {
   data() {
-    var angles = {'up': 0, 'right': 90, 'down': 180, 'left': -90};
+    var angles = {'up': 0, 'right': 90, 'down': 180, 'left': -90}
     return {
       styleObject: {
         transform: 'rotate(' + angles[this.direction] + 'deg)'
@@ -25,6 +25,14 @@ export default {
   },
   props: {
     direction: String
+  },
+  mounted() {
+    window.addEventListener('keydown', event => {
+      var keyCodes = {'up': 38, 'right': 39, 'down': 40, 'left': 37}
+      if (event.keyCode === keyCodes[this.direction]) { 
+        this.move()
+      }
+    })
   }
 }
 </script>

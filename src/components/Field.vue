@@ -1,20 +1,18 @@
 <template>
   <div class="field" :style="style" @move="newMove">
     <Border v-for="border in data.entities.borders" :coors="{x: border.x, y: border.y}" />
-    <Cell v-for="cell in data.entities.cells" :coors="{x: cell.x, y: cell.y}" :is-goal="cell.is_goal" :has-player="hasPlayer(cell.x, cell.y)" />
-    <Box v-for="box in data.entities.boxes" :coors="{x: box.x, y: box.y}"/>
+    <Cell v-for="cell in data.entities.cells" :coors="{x: cell.x, y: cell.y}" :is-goal="cell.is_goal" :has-box="cell.has_box"
+      :has-player="hasPlayer(cell.x, cell.y)" />
   </div>
 </template>
 
 <script>
 import Border from './Entities/Border.vue'
-import Box from './Entities/Box.vue'
 import Cell from './Entities/Cell.vue'
 
 export default {
   components: {
     Border,
-    Box,
     Cell
   },
   props: {
@@ -22,6 +20,8 @@ export default {
   },
   data() {
     return {
+      cells: this.data.entities.cells,
+      entities: {cell: 'Cell'},
       player: this.data.entities.player,
     }
   },
@@ -35,15 +35,25 @@ export default {
   },
   methods: {
     newMove(direction) {
-      this.changePlayerCoors(direction)
+      return this.changePlayerCoors(direction)
     },
     hasPlayer(x, y) {
       return this.player.x === x && this.player.y === y
     },
     changePlayerCoors(direction) {
       const directions = {'up': {x: 0, y: -1}, 'right': {x: 1, y: 0}, 'down': {x: 0, y: 1}, 'left': {x: -1, y: 0}}
-      this.player.x += directions[direction].x
-      this.player.y += directions[direction].y
+      var dx = directions[direction].x
+      var dy = directions[direction].y
+      if (this.getCoorsEntity(this.player.x + dx, this.player.y + dy) === this.entities.cell) {
+        this.player.x += dx
+        this.player.y += dy
+        return true
+      }
+    },
+    getCoorsEntity(x, y) {
+      if (this.cells.filter(cell => cell.x === x && cell.y === y).length > 0) {
+        return this.entities.cell
+      }
     }
   }
 }

@@ -29,8 +29,9 @@ export default {
   },
   methods: {
     newMove(direction) {
-      this.moves++
-      this.$refs.field.newMove(direction)
+      if (this.$refs.field.newMove(direction)) {
+        this.moves++  
+      }
     }
   }
 }
