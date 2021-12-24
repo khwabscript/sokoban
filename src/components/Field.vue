@@ -22,8 +22,9 @@ export default {
     return {
       boxes: this.data.entities.boxes,
       cells: this.data.entities.cells,
-      entities: {empty_cell: 'Empty cell', box: 'Box', border: 'Border'},
       player: this.data.entities.player,
+      directions: {'up': {x: 0, y: -1}, 'right': {x: 1, y: 0}, 'down': {x: 0, y: 1}, 'left': {x: -1, y: 0}},
+      entities: {empty_cell: 'Empty cell', box: 'Box', border: 'Border'},
     }
   },
   computed: {
@@ -36,27 +37,24 @@ export default {
   },
   methods: {
     newMove(direction) {
-      const directions = {'up': {x: 0, y: -1}, 'right': {x: 1, y: 0}, 'down': {x: 0, y: 1}, 'left': {x: -1, y: 0}}
-      var dx = directions[direction].x
-      var dy = directions[direction].y
+      var dx = this.directions[direction].x
+      var dy = this.directions[direction].y
       var entity = this.getCoorsEntity(this.player.x + dx, this.player.y + dy)
       if (entity === this.entities.box) {
         var boxCoors = {x: this.player.x + dx, y: this.player.y + dy}
         if (this.canPush(boxCoors.x + dx, boxCoors.y + dy)) {
           this.pushBox(boxCoors.x, boxCoors.y, dx, dy)
           this.changePlayerCoors(dx, dy)
-          return true
         }
       }
       if (entity === this.entities.empty_cell) {
         this.changePlayerCoors(dx, dy)
-        return true
       }
-      return false
     },
     changePlayerCoors(dx, dy) {
       this.player.x += dx
       this.player.y += dy
+      this.$emit('moved')
     },
     pushBox(x, y, dx, dy) {
       this.boxes.forEach(function(box, i, boxes) {
@@ -65,6 +63,7 @@ export default {
           boxes[i].y += dy;
         }
       });
+      this.$emit('pushed')
     },
     canPush(x, y) {
       return this.getCoorsEntity(x, y) === this.entities.empty_cell

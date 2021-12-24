@@ -2,7 +2,7 @@
   <main class="container">
     <h1>Sokoban</h1>
     <h2>{{ data.name }} - Level {{ data.level }}</h2>
-    <Field ref="field" :data="data" />
+    <Field ref="field" :data="data" @moved="moved" @pushed="pushed" />
     <ControlPanel @move="newMove" />
     <Stats :moves="moves" :pushes="pushes" />
   </main>
@@ -29,9 +29,13 @@ export default {
   },
   methods: {
     newMove(direction) {
-      if (this.$refs.field.newMove(direction)) {
-        this.moves++  
-      }
+      this.$refs.field.newMove(direction)
+    },
+    moved() {
+      this.moves++
+    },
+    pushed() {
+      this.pushes++
     }
   }
 }
