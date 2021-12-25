@@ -1,0 +1,9 @@
+{
+  "-": "Empty space",
+  "+": "Border",
+  "0": "Box",
+  " ": "Empty cell",
+  "*": "Target",
+  "#": "Box on target",
+  "P": "Player"
+}
